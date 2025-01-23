@@ -5,7 +5,7 @@ import { ArrowUpRight, FileDown } from 'lucide-react';
 
 const ChatView = () => {
   return (
-    <main className="min-h-screen bg-white px-6 pt-32 pb-12">
+    <div className="bg-white px-6 py-20">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold text-[#003950] text-center mb-12">
           ¿En qué puedo ayudarte?
@@ -36,7 +36,7 @@ const ChatView = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 
