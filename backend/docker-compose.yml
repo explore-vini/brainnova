@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: fastapi_app
+    ports:
+      - "7543:7543"  # puerto HTTPS
+    volumes:
+      - .:/app
+      - /etc/letsencrypt:/etc/letsencrypt:ro  # Montaje de certificados
+    environment:
+      - PYTHONUNBUFFERED=1
+      - SSL_CERT=/etc/letsencrypt/live/cloudia.explorevini.com/fullchain.pem
+      - SSL_KEY=/etc/letsencrypt/live/cloudia.explorevini.com/privkey.pem
+    restart: always

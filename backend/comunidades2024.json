@@ -1,0 +1,614 @@
+[
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Andalucia",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "377,21",
+      "Target": "429,82",
+      "Objective": "96%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Andalucia",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "191,19",
+      "Target": "246,42",
+      "Objective": "88%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Andalucia",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "253,38",
+      "Target": "264,43",
+      "Objective": "98%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Andalucia",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "69,55",
+      "Target": "167,04",
+      "Objective": "71%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Aragon",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "377,21",
+      "Target": "429,82",
+      "Objective": "97%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Aragon",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "191,19",
+      "Target": "246,43",
+      "Objective": "93%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Aragon",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "253,38",
+      "Target": "264,43",
+      "Objective": "103%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Aragon",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "69,55",
+      "Target": "167,04",
+      "Objective": "120%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Asturias",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "377,21",
+      "Target": "429,82",
+      "Objective": "91%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Asturias",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "191,19",
+      "Target": "246,42",
+      "Objective": "97%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Asturias",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "253,38",
+      "Target": "264,43",
+      "Objective": "94%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Asturias",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "69,55",
+      "Target": "167,04",
+      "Objective": "81%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Baleares",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "377,21",
+      "Target": "429,82",
+      "Objective": "102%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Baleares",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "191,19",
+      "Target": "246,42",
+      "Objective": "86%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Baleares",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "253,38",
+      "Target": "264,43",
+      "Objective": "103%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Baleares",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "69,55",
+      "Target": "167,04",
+      "Objective": "46%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Canarias",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "377,21",
+      "Target": "429,82",
+      "Objective": "88%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Canarias",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "191,19",
+      "Target": "246,42",
+      "Objective": "78%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Canarias",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "96%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Canarias",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "42%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Cantabria",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "92%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Cantabria",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "78%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Cantabria",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "86%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Cantabria",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "86%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Castilla - La Mancha",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "90%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Castilla - La Mancha",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "66%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Castilla - La Mancha",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "91%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Castilla - La Mancha",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "46%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Castilla y Leon",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "91%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Castilla y Leon",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "88%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Castilla y Leon",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "89%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Castilla y Leon",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "87%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Cataluña",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "109%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Cataluña",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "122%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Cataluña",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "110%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Cataluña",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "127%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Comunidad Valenciana",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "100%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Comunidad Valenciana",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "86%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Comunidad Valenciana",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "99%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Comunidad Valenciana",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "89%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Extremadura",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "92%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Extremadura",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "72%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Extremadura",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "93%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Extremadura",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "53%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Galicia",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "89%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Galicia",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "86%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Galicia",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "95%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Galicia",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "83%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "La Rioja",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "91%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "La Rioja",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "83%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "La Rioja",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "94%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "La Rioja",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "80%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Madrid",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "114%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Madrid",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "119%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Madrid",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "106%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Madrid",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "152%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Murcia",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "92%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Murcia",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "87%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Murcia",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "90%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Murcia",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "81%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Navarra",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "100%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Navarra",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "79%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Navarra",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "94%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Navarra",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "133%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Pais Vasco",
+      "Categoria": "Economics Agents",
+      "Indicador": "Households",
+      "Value": "427,68",
+      "Target": "429,82",
+      "Objective": "100%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Pais Vasco",
+      "Categoria": "Economics Agents",
+      "Indicador": "Enterprise",
+      "Value": "261,37",
+      "Target": "246,42",
+      "Objective": "106%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Pais Vasco",
+      "Categoria": "Environment",
+      "Indicador": "Public Adm.",
+      "Value": "241,96",
+      "Target": "264,43",
+      "Objective": "92%"
+    },
+    {
+      "Año": 2024,
+      "Comunidad_Autonoma": "Pais Vasco",
+      "Categoria": "Environment",
+      "Indicador": "Innovation",
+      "Value": "234,28",
+      "Target": "167,04",
+      "Objective": "140%"
+    }
+  ]
