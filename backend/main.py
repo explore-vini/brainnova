@@ -242,17 +242,17 @@ async def get_ia_usage():
         raise HTTPException(status_code=500, detail=str(e))
     
 
-# if __name__ == "__main__":
-#     uvicorn.run(app, host="0.0.0.0", port=8507)
-    
 if __name__ == "__main__":
-    uvicorn.run(
-        app,
-        host="0.0.0.0",
-        port=7543,
-        ssl_keyfile=os.getenv('SSL_KEY'),
-        ssl_certfile=os.getenv('SSL_CERT'),
-        log_level="info"
-    )
+    uvicorn.run(app, host="0.0.0.0", port=8507)
+    
+# if __name__ == "__main__":
+#     uvicorn.run(
+#         app,
+#         host="0.0.0.0",
+#         port=7543,
+#         ssl_keyfile=os.getenv('SSL_KEY'),
+#         ssl_certfile=os.getenv('SSL_CERT'),
+#         log_level="info"
+#     )
     
     

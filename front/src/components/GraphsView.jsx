@@ -33,7 +33,7 @@ const GraphsView = () => {
   };
 
   return (
-    <main className="min-h-screen bg-white px-6 pt-32 pb-12">
+    <div className="bg-white px-6 py-32">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Bar Chart Section */}
@@ -100,7 +100,7 @@ const GraphsView = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 

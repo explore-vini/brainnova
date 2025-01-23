@@ -16,7 +16,12 @@ module.exports = {
         "2xl": "1400px",
       },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        quantico: ['Quantico', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

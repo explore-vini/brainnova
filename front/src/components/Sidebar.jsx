@@ -24,15 +24,13 @@ const Sidebar = ({ isOpen, onNavigate }) => {
     { icon: <ListTodo size={24} />, label: 'Listados', action: () => onNavigate('lists') },
   ];
 
+  if (!isOpen) return null;
+
   return (
-    <div 
-      className={`fixed top-0 left-0 h-screen bg-[#003950] text-white w-64 pt-20 transform transition-transform duration-300 ease-in-out ${
-        isOpen ? 'translate-x-0' : '-translate-x-full'
-      }`}
-    >
-      <div className="px-4 mb-8">
+    <div className="h-full pt-16"> {/* pt-16 to account for header height */}
+      <div className="px-4 py-6">
         <div className="flex items-center">
-          <span className="text-xl font-bold">BRAINNOVA</span>
+          <span className="text-xl font-bold text-white">BRAINNOVA</span>
         </div>
       </div>
 

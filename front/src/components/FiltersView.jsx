@@ -28,7 +28,7 @@ const FiltersView = () => {
     setResult('');
     setShowTypewriter(false);
 
-    try {
+    try { 
       const response = await fetch('https://cloudia.explorevini.com:7543/api/analyze', {
         method: 'POST',
         headers: {
@@ -60,7 +60,7 @@ const FiltersView = () => {
   };
 
   return (
-    <main className="min-h-screen bg-white px-6 pt-32 pb-12">
+    <div className="bg-white px-6 py-20">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold text-[#003950] text-center mb-12">
           Seleccione una pregunta para analizar
@@ -114,7 +114,7 @@ const FiltersView = () => {
           )}
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 
