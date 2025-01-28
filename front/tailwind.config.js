@@ -17,9 +17,22 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#036283',
+          light: '#5790AB',
+          dark: '#064469',
+        },
+        secondary: {
+          DEFAULT: '#9ECDDE',
+          light: '#D0D7E1',
+          dark: '#393E3F',
+        },
+        accent: '#072D44',
+      },
       fontFamily: {
-        quantico: ['Quantico', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        hind: ['Hind', 'sans-serif'],
       },
     },
   },
