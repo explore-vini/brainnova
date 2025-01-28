@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "rewrites": [
     {
       "source": "/brainova/:path*",
@@ -20,8 +21,21 @@
         {
           "key": "Access-Control-Allow-Headers",
           "value": "X-Requested-With,Content-Type,Accept"
+        },
+        {
+          "key": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "key": "Keep-Alive",
+          "value": "timeout=300"
         }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 300
+    }
+  }
 }
