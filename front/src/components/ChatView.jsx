@@ -26,15 +26,16 @@ const ChatView = () => {
     setError('');
 
     try {
-      const response = await fetch('https://cloudia.explorevini.com:7543/api/chat', {
+      const response = await fetch('/api/query', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          message: inputMessage
+          question: inputMessage, 
+          show_queries: true
         })
-      });
+    });
 
       if (!response.ok) {
         throw new Error('Error en la respuesta del servidor');
@@ -45,7 +46,7 @@ const ChatView = () => {
       // Add bot response to chat
       const botMessage = {
         type: 'bot',
-        content: data.response,
+        content: data.answer,
         timestamp: new Date().toISOString()
       };
 
@@ -125,16 +126,7 @@ const ChatView = () => {
             </button>
           </div>
 
-          {/* Download report button */}
-          <div className="flex justify-start">
-            <Button 
-              variant="outline"
-              className="flex items-center gap-2 text-[#008BBF] border-[#008BBF] hover:bg-[#008BBF] hover:text-white transition-colors"
-            >
-              <FileDown className="w-5 h-5" />
-              Descargar reporte
-            </Button>
-          </div>
+
         </div>
       </div>
     </div>
