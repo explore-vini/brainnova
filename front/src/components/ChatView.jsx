@@ -27,17 +27,21 @@ const ChatView = () => {
     setError('');
 
     try {
-      const response = await fetch(API_ENDPOINTS.chat, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          question: inputMessage, 
-          show_queries: true
-        })
-    });
-
+      const response = await Promise.race([
+        fetch(API_ENDPOINTS.chat, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            question: inputMessage, 
+            show_queries: true
+          })
+        }),
+        new Promise((_, reject) =>
+          setTimeout(() => reject(new Error('Timeout')), 600000) // 5 minutos
+        )
+      ]);
 
       if (!response.ok) {
         throw new Error('Error en la respuesta del servidor');
@@ -57,7 +61,11 @@ const ChatView = () => {
       setInputMessage(''); // Clear input after sending
     } catch (error) {
       console.error('Error:', error);
-      setError('Hubo un error al enviar el mensaje. Por favor, intente de nuevo.');
+      if (error.message === 'Timeout') {
+        setError('La solicitud está tomando más tiempo de lo esperado. Por favor, intente de nuevo.');
+      } else {
+        setError('Hubo un error al enviar el mensaje. Por favor, intente de nuevo.');
+      }
     } finally {
       setLoading(false);
     }
