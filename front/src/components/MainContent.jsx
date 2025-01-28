@@ -13,7 +13,7 @@ const MainContent = ({ onSectionChange }) => {
       title: "FILTROS",
       description: "Explora cómo las nuevas tendencias están transformando la economía digital valenciana. Interactúa con los datos en tiempo real y profundiza en el conocimiento de tu sector, tu zona, las tecnologías en uso y mucho más.",
       status: "Selecciona",
-      onClick: () => onSectionChange('filters')
+      onClick: () => onSectionChange('filtersComponent')
     },
     {
       title: "CHATEA",

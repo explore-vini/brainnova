@@ -5,6 +5,7 @@ import ChatView from './ChatView';
 import GraphsView from './GraphsView';
 import AboutSection from './AboutSection';
 import FeaturesSection from './FeaturesSection';
+import FilterSection from './FilterSection';
 
 const LandingPage = ({ onNavigate }) => {
   const [selectedSection, setSelectedSection] = useState('filters');
@@ -30,6 +31,8 @@ const LandingPage = ({ onNavigate }) => {
         return <ChatView />;
       case 'filters':
         return <FiltersView />;
+      case 'filtersComponent':
+          return <FilterSection/>;
       default:
         return <FiltersView />;
     }
