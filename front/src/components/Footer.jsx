@@ -9,73 +9,80 @@ import {
 } from 'lucide-react';
 
 const Footer = () => {
-  const footerLinks = {
-    support: {
-      title: 'Support',
-      links: ['Documentation', 'Contact']
-    },
-    company: {
-      title: 'Company',
-      links: ['About Us', 'Blog', 'Services']
-    },
-    legal: {
-      title: 'Legal',
-      links: ['Privacy', 'Terms', 'Partners']
-    }
-  };
-
   return (
-    <footer className="bg-[#003950] text-white py-12 px-6">
-      <div className="max-w-7xl mx-auto">
-        {/* Email subscription */}
-        <div className="flex flex-col md:flex-row justify-between items-center mb-12 gap-4">
-          <div className="flex-1 max-w-md">
-            <h2 className="text-lg font-semibold mb-2">BRAINNOVA</h2>
-            <p className="text-gray-300">
-              Embrace the transformative power of cryptocurrency
-            </p>
-          </div>
-          
-          <div className="flex gap-2 w-full md:w-auto">
+    <footer className="bg-cyan-900 text-white py-16">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Top section */}
+        <div className="flex justify-between items-start mb-12">
+          <img 
+            src="/camara.png" 
+            alt="Cámara Valencia Logo" 
+            className="h-16 w-auto"
+          />
+          <div className="flex gap-2">
             <Input 
               type="email" 
               placeholder="Escribe tu email" 
-              className="bg-transparent border-gray-600 text-white placeholder:text-gray-400 w-full md:w-64"
+              className="bg-transparent border-gray-600 text-white placeholder:text-gray-400 w-64"
             />
-            <Button className="bg-[#008BBF] hover:bg-[#0099cc] whitespace-nowrap">
+            <Button className="bg-cyan-500 hover:bg-cyan-400 text-white">
               Subscribe
             </Button>
           </div>
         </div>
 
-        {/* Links section */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-          <div className="space-y-4">
-            {/* Espacio reservado para logos */}
+        {/* Main content */}
+        <div className="flex justify-between">
+          {/* Left column */}
+          <div className="w-1/3 space-y-8">
+            <div className="space-y-4">
+              <img 
+                src="/logo.svg" 
+                alt="Brainnova Logo" 
+                className="h-6 w-auto"
+              />
+              <p className="text-gray-300">
+                Plataforma Avanzada Valenciana de Innovación,
+                <br />
+                Economía Digital y Sostenibilidad
+              </p>
+            </div>
+
+            {/* Social media icons */}
+            <div className="flex space-x-6">
+              <a href="#" className="text-gray-300 hover:text-white">
+                <Facebook className="w-6 h-6" />
+              </a>
+              <a href="#" className="text-gray-300 hover:text-white">
+                <Instagram className="w-6 h-6" />
+              </a>
+              <a href="#" className="text-gray-300 hover:text-white">
+                <Youtube className="w-6 h-6" />
+              </a>
+              <a href="#" className="text-gray-300 hover:text-white">
+                <Twitter className="w-6 h-6" />
+              </a>
+            </div>
           </div>
-          
-          {Object.entries(footerLinks).map(([key, section]) => (
-            <div key={key} className="space-y-4">
-              <h3 className="font-semibold text-lg">{section.title}</h3>
+
+          {/* Right column - aligned with input */}
+          <div className="w-1/3 space-y-12">
+            {/* Sede Central */}
+            <div className="space-y-2">
+              <h3 className="font-semibold text-lg">Sede Central</h3>
+              <p className="text-gray-300">C/Poeta Querol 15 – 46002 València</p>
+            </div>
+
+            {/* Legal section */}
+            <div className="space-y-2">
+              <h3 className="font-semibold text-lg">Legal</h3>
               <ul className="space-y-2">
-                {section.links.map((link) => (
-                  <li key={link}>
-                    <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                      {link}
-                    </a>
-                  </li>
-                ))}
+                <li><a href="#" className="text-gray-300 hover:text-white">Aviso legal</a></li>
+                <li><a href="#" className="text-gray-300 hover:text-white">Política de Cookies</a></li>
+                <li><a href="#" className="text-gray-300 hover:text-white">Política de privacidad</a></li>
               </ul>
             </div>
-          ))}
-        </div>
-
-        {/* Social media */}
-        <div className="flex justify-start space-x-4">
-          <Facebook className="w-6 h-6 text-gray-300 hover:text-white cursor-pointer" />
-          <Instagram className="w-6 h-6 text-gray-300 hover:text-white cursor-pointer" />
-          <Youtube className="w-6 h-6 text-gray-300 hover:text-white cursor-pointer" />
-          <Twitter className="w-6 h-6 text-gray-300 hover:text-white cursor-pointer" />
+          </div>
         </div>
       </div>
     </footer>

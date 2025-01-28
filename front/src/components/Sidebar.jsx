@@ -17,7 +17,6 @@ const Sidebar = ({ isOpen, onNavigate }) => {
   };
 
   const handleNavigation = (section) => {
-    // Obtener la posición del segundo componente
     const secondSection = document.querySelector('section:nth-child(2)');
     const secondSectionPosition = secondSection?.offsetTop || 0;
 
@@ -29,9 +28,7 @@ const Sidebar = ({ isOpen, onNavigate }) => {
       case 'graphs':
       case 'filters':
       case 'chat':
-        // Primero actualizamos la vista
         onNavigate(section);
-        // Luego hacemos scroll
         setTimeout(() => {
           scrollToSection(secondSectionPosition);
         }, 100);
@@ -59,10 +56,15 @@ const Sidebar = ({ isOpen, onNavigate }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="h-full pt-16 w-64">
-      <div className="px-4 py-6">
-        <div className="flex items-center">
-          <span className="text-xl font-bold text-white">BRAINNOVA</span>
+    <div className="h-full pt-8 w-64">
+      {/* Logo Container */}
+      <div className="px-4 mb-8">
+        <div className="flex justify-center items-center">
+          <img 
+            src="/logo.svg" 
+            alt="Brainnova Logo" 
+            className="w-52 h-auto"
+          />
         </div>
       </div>
 
@@ -89,3 +91,4 @@ const Sidebar = ({ isOpen, onNavigate }) => {
   );
 };
 
+export default Sidebar;
