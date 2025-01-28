@@ -41,7 +41,7 @@ const FiltersView = () => {
     setShowTypewriter(false);
     setShowResults(false);
 
-    try { 
+    try { // http://localhost:7543/api/analyze
       const response = await fetch('https://cloudia.explorevini.com:7543/api/analyze', {
         method: 'POST',
         headers: {
