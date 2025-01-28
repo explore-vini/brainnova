@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { ArrowUpRight, FileDown } from 'lucide-react';
 import { Alert } from "@/components/ui/alert";
 import Spinner from './Spinner';
+import { API_ENDPOINTS } from '../../config/api';
 
 const ChatView = () => {
   const [inputMessage, setInputMessage] = useState('');
@@ -26,7 +27,7 @@ const ChatView = () => {
     setError('');
 
     try {
-      const response = await fetch('/brainova/query', {
+      const response = await fetch(API_ENDPOINTS.chat, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

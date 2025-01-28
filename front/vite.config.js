@@ -15,8 +15,10 @@ export default defineConfig({
         target: 'https://cloudia.explorevini.com',
         changeOrigin: true,
         secure: false,
+        rewrite: (path) => path.replace(/^\/brainova/, '/brainova'),
         ws: true
       }
     }
-  }
+  },
+  base: '/'
 })

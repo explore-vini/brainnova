@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import Header from './components/Header';
 import LandingPage from './components/LandingPage';
 import Footer from './components/Footer';
@@ -6,11 +6,15 @@ import Sidebar from './components/Sidebar';
 
 const App = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [currentView, setCurrentView] = useState('landing');
 
-  const handleNavigation = (view) => {
-    setCurrentView(view);
-  };
+  const handleNavigation = useCallback((newSection) => {
+    // Actualizar la URL hash
+    window.location.hash = newSection;
+  }, []);
+
+  const toggleSidebar = useCallback(() => {
+    setIsSidebarOpen(prev => !prev);
+  }, []);
 
   return (
     <div className="min-h-screen">
@@ -20,14 +24,17 @@ const App = () => {
           isSidebarOpen ? 'w-64' : 'w-0'
         } overflow-hidden`}
       >
-        <Sidebar isOpen={isSidebarOpen} onNavigate={handleNavigation} />
+        <Sidebar 
+          isOpen={isSidebarOpen} 
+          onNavigate={handleNavigation} 
+        />
       </div>
 
       {/* Main content wrapper */}
       <div className={`transition-all duration-300 ${isSidebarOpen ? 'ml-64' : 'ml-0'}`}>
         {/* Header */}
         <Header 
-          onMenuClick={() => setIsSidebarOpen(!isSidebarOpen)}
+          onMenuClick={toggleSidebar}
           isSidebarOpen={isSidebarOpen}
         />
 
