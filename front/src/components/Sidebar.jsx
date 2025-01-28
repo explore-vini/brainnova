@@ -89,4 +89,3 @@ const Sidebar = ({ isOpen, onNavigate }) => {
   );
 };
 
-export default Sidebar;
