@@ -11,11 +11,9 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      '/api': {
-        target: 'http://141.227.128.150:8001',
+      '/brainova': {
+        target: 'https://cloudia.explorevini.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
-        // Configuración específica para evitar el OPTIONS preflight
         secure: false,
         ws: true
       }

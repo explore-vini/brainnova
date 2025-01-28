@@ -26,7 +26,7 @@ const ChatView = () => {
     setError('');
 
     try {
-      const response = await fetch('/api/query', {
+      const response = await fetch('/brainova/query', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
