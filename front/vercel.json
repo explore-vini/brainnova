@@ -4,6 +4,10 @@
     {
       "source": "/brainova/:path*",
       "destination": "https://cloudia.explorevini.com/brainova/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
@@ -32,9 +36,5 @@
         }
       ]
     }
-  ],
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
