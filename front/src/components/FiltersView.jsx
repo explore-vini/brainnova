@@ -5,6 +5,7 @@ import Spinner from './Spinner';
 import TypewriterText from './TypewriterText';
 import GraphsViewID from './GraphsViewID';
 import GraphsViewIAxTamanio from './GraphsViewIAxTamanio';
+import GraphsViewDigitalMaturity from './GraphsViewDigitalMaturity';
 
 const FiltersView = () => {
   const [selectedQuestion, setSelectedQuestion] = useState('');
@@ -75,6 +76,7 @@ const FiltersView = () => {
 
   const isIDQuestion = selectedQuestion === "¿Cuál es el nivel de desarrollo de I+D de la Comunidad Valenciana?";
   const isIAQuestion = selectedQuestion === "¿Cuáles son las IA más utilizadas por las empresas?";
+  const isDigitalMaturityQuestion = selectedQuestion === "¿Cuál es la madurez digital en la Comunidad Valenciana?";
 
   return (
     <div className="bg-white px-6 py-12">
@@ -120,29 +122,31 @@ const FiltersView = () => {
         </div>
 
         {/* Results Section with adjusted layout */}
-        {showResults && (isIDQuestion || isIAQuestion) ? (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
-            {/* Graph Section */}
-            <div className="bg-white p-4 rounded-xl shadow-lg border border-gray-100 h-full">
-              <div className="w-full h-full min-h-[600px]">
-                {isIDQuestion ? <GraphsViewID /> : <GraphsViewIAxTamanio />}
-              </div>
+        {showResults && (isIDQuestion || isIAQuestion || isDigitalMaturityQuestion) ? (
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
+          {/* Graph Section */}
+          <div className="bg-white p-4 rounded-xl shadow-lg border border-gray-100 h-full">
+            <div className="w-full h-full min-h-[600px]">
+              {isIDQuestion ? <GraphsViewID /> : 
+              isIAQuestion ? <GraphsViewIAxTamanio /> :
+              <GraphsViewDigitalMaturity />}
             </div>
+          </div>
 
-            {/* Text Results Section */}
-            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-              <h2 className="text-2xl font-semibold text-[#003950] mb-6">Resultados del Análisis</h2>
-              <div className="prose max-w-none">
-                {showTypewriter && result && <TypewriterText text={result} />}
-              </div>
+          {/* Text Results Section */}
+          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+            <h2 className="text-2xl font-semibold text-[#003950] mb-6">Resultados del Análisis</h2>
+            <div className="prose max-w-none">
+              {showTypewriter && result && <TypewriterText text={result} />}
             </div>
           </div>
-        ) : showResults && (
-          <div className="mt-8 p-8 bg-white rounded-xl shadow-lg border border-gray-100">
-            <h2 className="text-2xl font-semibold text-[#003950] mb-6">Resultados del Análisis</h2>
-            {showTypewriter && result && <TypewriterText text={result} />}
-          </div>
-        )}
+        </div>
+      ) : showResults && (
+        <div className="mt-8 p-8 bg-white rounded-xl shadow-lg border border-gray-100">
+          <h2 className="text-2xl font-semibold text-[#003950] mb-6">Resultados del Análisis</h2>
+          {showTypewriter && result && <TypewriterText text={result} />}
+        </div>
+      )}
       </div>
     </div>
   );
